@@ -55,7 +55,7 @@ public class index2 {
         int nota = sc.nextInt();
 
 //        if (nota > 50 )
-// falta termina
+// falta termina tente
 
 
     }
