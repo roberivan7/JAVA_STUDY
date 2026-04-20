@@ -50,12 +50,49 @@ public class index2 {
 //            System.out.println("Não sei o que é isso !!!");
 //        }
         // Questão 04
+//
+//        System.out.println("Informe a nota do aluno: ");
+//        int nota = sc.nextInt();
+//
+//        if (nota >= 50 ){
+//            System.out.println("Voce foi aprovado !!!");
+//        }else if (nota < 50 && nota >=40){
+//            System.out.println("Voce esta de recuperação 2");
+//        }else if (nota < 40 && nota >= 20){
+//            System.out.println("Voce esta de recuperação 1");
+//        }else if (nota < 20){
+//            System.out.println("Voce esta reprovado !!!");
+//        }
 
-        System.out.println("Informe a nota do aluno: ");
+        // Questão 05
+
+        System.out.println("""
+                Qual senai voce faz parte ?
+                [1] - Senai Vila Alpina
+                [2] - Senai Mooca
+                """);
+        int escolha = sc.nextInt();
+
+        System.out.println("Informe a sua nota: "); //((30*100)/80)
         int nota = sc.nextInt();
+        System.out.println("Informe a sua frequência em presença \n(total de presença é 80, se caso faltou 2 dias, total é 78: ");
+        double frequencia = sc.nextInt();
+        double aulas_total = 80;
+        double media_frequencia = (frequencia*100)/aulas_total; // Esse resultado ira me retorna em porcentagem, porém não em valor decimal
 
-//        if (nota > 50 )
-// falta termina tente
+        if (escolha == 1) { // Senai Vila Alpina
+            if (nota >= 60 && media_frequencia >= 75.0) {
+                System.out.println("Voce foi aprovado !!!");
+            }else {
+                System.out.println("Voce foi reprovado infelizmente !!!");
+            }
+        }else if (escolha == 2) { // Senai Mooca
+            if (nota >= 50 && media_frequencia >= 75.0) {
+                System.out.println("Voce foi aprovado !!!");
+            }else {
+                System.out.println("Voce foi reprovado infelizmente !!!");
+            }
+        }
 
 
     }
