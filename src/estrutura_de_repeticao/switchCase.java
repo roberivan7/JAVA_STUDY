@@ -3,31 +3,31 @@ package estrutura_de_repeticao;
 import java.util.Scanner;
 
 public class switchCase {
-    static void main() {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Informe um numero, de 1 a 7: ");
         int dia = sc.nextInt();
         switch(dia) {
             case 1:
-                System.out.println("Dom");
+                System.out.println("Domingo");
                 break;
             case 2:
-                System.out.println("Seg");
+                System.out.println("Segunda-Feira");
                 break;
             case 3:
-                System.out.println("Ter");
+                System.out.println("Terça-Feira");
                 break;
             case 4:
-                System.out.println("Qua");
+                System.out.println("Quarta-Feira");
                 break;
             case 5:
-                System.out.println("Qui");
+                System.out.println("Quinta-Feira");
                 break;
             case 6:
-                System.out.println("Sex");
+                System.out.println("Sexta-Feira");
                 break;
             case 7:
-                System.out.println("Sab");
+                System.out.println("Sabado");
                 break;
             default:
                 System.out.println("Informe um dia válido");
