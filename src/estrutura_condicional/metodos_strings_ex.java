@@ -22,6 +22,19 @@ public class metodos_strings_ex {
 //        }
 
         // Questão 03
+//        System.out.println("Informe seu CPF, com pontos e traços:");
+//        System.out.println(sc.next().replace(".","").replace("-","").length() == 11 ? "CPF confirmado !!!" : "CPF invalidado !!!"); // Esse linha serve como expressão logico utilizando operador ternario
+
+        //Questão 04
+        System.out.println("Informe seu nome:");
+        String nome = sc.nextLine();
+        int space = nome.indexOf(" ");
+        int fim = nome.lastIndexOf(nome);
+
+//        System.out.println(nome.substring(10));
+        System.out.println(nome.substring(0,space));
+        System.out.println(nome.substring(space+1));
+        System.out.println(nome);
 
 
 
