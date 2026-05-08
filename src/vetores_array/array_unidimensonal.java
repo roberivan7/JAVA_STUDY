@@ -79,6 +79,7 @@ public class array_unidimensonal {
             //        System.out.println("O aluno(a) "+alunos[0]+" fechou com a nota "+notas[0]);
             //        System.out.println("O aluno "+alunos[1]+" fechou com a nota "+notas[1]);
             //        System.out.println("O aluno "+alunos[2]+" fechou com a nota "+notas[2]);
+
         }
     }
 
