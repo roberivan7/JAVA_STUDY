@@ -1,4 +1,4 @@
-package estrutura_condicional;
+package estrutura_repeticao;
 
 public class expressao_condicional {
     boolean verificarAcesso(int idade, boolean temCadastro, boolean isConvidado) {

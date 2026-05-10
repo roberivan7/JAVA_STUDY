@@ -1,5 +1,4 @@
-package estrutura_condicional;
-
+package estrutura_repeticao;
 import java.util.Scanner;
 
 public class metodos_strings_ex {
