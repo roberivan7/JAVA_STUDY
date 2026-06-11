@@ -1,4 +1,4 @@
-package POO.Class_objetos;
+package POO.Class_objetos.objetos_class;
 
 
 class carro {
